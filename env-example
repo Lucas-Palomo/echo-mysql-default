@@ -1,0 +1,8 @@
+SERVER_ADDR=localhost:3000
+LOG_FILE=./service.log
+
+MYSQL_ADDR=localhost:3306
+MYSQL_USER=toor
+MYSQL_PASSWORD=toor
+MYSQL_DATABASE=commerce
+MYSQL_RANDOM_ROOT_PASSWORD=true

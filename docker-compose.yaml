@@ -1,0 +1,9 @@
+version: 1
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - ./mysql.cnf:/etc/mysql/conf.d/mysql.cnf
+    network_mode: 'host'
+    env_file:
+      - '.env'
